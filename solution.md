@@ -29,7 +29,7 @@ The pipeline automates the following stages:
    ```bash
    chmod +x mvnw
    ./mvnw clean package -DskipTests
-```
+
 
 3. **Test**
    Runs the unit and integration tests. Test results are published in Jenkins using `junit`.
@@ -37,7 +37,7 @@ The pipeline automates the following stages:
 
    ```bash
    ./mvnw test
-  ```
+ 
 
 4. **Deploy**
    Starts the Spring Boot application in the background on port `9999`. Logs are saved to `app.log`.
