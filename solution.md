@@ -29,7 +29,7 @@ The pipeline automates the following stages:
    ```bash
    chmod +x mvnw
    ./mvnw clean package -DskipTests
-````
+```
 
 3. **Test**
    Runs the unit and integration tests. Test results are published in Jenkins using `junit`.
@@ -37,7 +37,7 @@ The pipeline automates the following stages:
 
    ```bash
    ./mvnw test
-   ```
+  ```
 
 4. **Deploy**
    Starts the Spring Boot application in the background on port `9999`. Logs are saved to `app.log`.
@@ -92,8 +92,3 @@ The pipeline automates the following stages:
 * [Spring PetClinic GitHub](https://github.com/spring-projects/spring-petclinic)
 * [Spring Boot Documentation](https://spring.io/projects/spring-boot)
 * [Jenkins Pipeline Documentation](https://www.jenkins.io/doc/book/pipeline/)
-
-```
-
-لو تحب، أقدر أجهزهولك نسخة **مختصرة بالعربي** كمان تبقى سهلة الفهم لأي حد هيشوف الريبو. تحب أعملها؟
-```
