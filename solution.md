@@ -76,7 +76,7 @@ The pipeline automates the following stages:
    ```
    http://localhost:9999
    ```
-
+![9999](fork5.png)
 ---
 
 ## Notes
